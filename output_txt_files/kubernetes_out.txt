@@ -1,8 +1,8 @@
 yasirjanjua@localhost machine-learning-services-kubernetes % kubectl get pods
 NAME                                 READY   STATUS    RESTARTS   AGE
 test                                 1/1     Running   0          17m
-udacity-project-4-548d5c476b-m757b   1/1     Running   0          8m17s
-yasirjanjua@localhost machine-learning-services-kubernetes % kubectl logs udacity-project-4-548d5c476b-m757b
+udacity-ml-project-68676c47d8-v54bk   1/1     Running   0          8m17s
+yasirjanjua@localhost machine-learning-services-kubernetes % kubectl logs udacity-ml-project-68676c47d8-v54bk
  * Serving Flask app "app" (lazy loading)
  * Environment: production
    WARNING: Do not use the development server in a production environment.
