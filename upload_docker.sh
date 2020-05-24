@@ -15,3 +15,5 @@ echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
+docker tag machine-learning-services-kubernetes:lastest $dockerpath
+docker push $dockerpath
