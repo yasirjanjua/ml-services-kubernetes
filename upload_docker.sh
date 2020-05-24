@@ -6,8 +6,10 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+dockerpath="yasirjanjua/machine-learning-services-kubernetes:lastest"
+docker login --username=yasirjanjua
 
-# Step 2:  
+# Step 2:
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 
